@@ -21,5 +21,5 @@ Package.onUse(function (api) {
         'components/AdminPanel.jsx'
     ]);
 
-    api.mainModule('index.js');
+    api.mainModule('./index.js');
 });
