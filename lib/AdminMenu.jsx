@@ -1,4 +1,4 @@
-import {MenuBuilder} from '{universe:ui-react-menu}';
+import {MenuBuilder} from 'meteor/universe:ui-react-menu';
 
 export const AdminMenu = new MenuBuilder();
 export default AdminMenu;

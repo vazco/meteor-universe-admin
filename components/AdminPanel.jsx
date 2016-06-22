@@ -1,6 +1,6 @@
-import {Menu} from '{universe:ui-react-menu}';
-import {Column, Grid} from '{universe:ui-react}';
-
+import {Menu} from 'meteor/universe:ui-react-menu';
+import {Column, Grid} from 'meteor/universe:ui-react';
+import React from 'react';
 import AdminMenu from '../lib/AdminMenu';
 
 export const AdminPanel = React.createClass({

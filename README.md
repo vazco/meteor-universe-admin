@@ -4,7 +4,7 @@
 
 ### Adding link
 ```js
-import {AdminMenu} from '{universe:admin}';
+import {AdminMenu} from 'meteor/universe:admin';
 
 AdminMenu.add({
     text: 'Add',
@@ -20,7 +20,7 @@ AdminMenu.add({
 
 ### Adding submenu
 ```js
-import {AdminMenu} from '{universe:admin}';
+import {AdminMenu} from 'meteor/universe:admin';
 
 import AdminView from './AdminView';
 
@@ -50,7 +50,7 @@ AdminMenu.add({
 
 ### Rendering
 ```js
-import {AdminPanel} from '{universe:admin}';
+import {AdminPanel} from 'meteor/universe:admin';
 
 <AdminPanel view="users"/>                 // If URL is /users
 <AdminPanel view="users" prefix="/admin"/> // If URL is /admin/users
