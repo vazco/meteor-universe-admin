@@ -1,5 +1,14 @@
-## Abandonware
-# universe:admin
+<h1 align="center">
+    <a href="https://github.com/vazco">vazco</a>/Universe Admin
+</h1>
+
+&nbsp;
+
+<h3 align="center">
+  -- Abandonware. This package is deprecated! --
+</h3>
+
+&nbsp;
 
 ### Adding link
 ```js
@@ -54,3 +63,10 @@ import {AdminPanel} from '{universe:admin}';
 <AdminPanel view="users"/>                 // If URL is /users
 <AdminPanel view="users" prefix="/admin"/> // If URL is /admin/users
 ```
+### License
+
+<img src="https://vazco.eu/banner.png" align="right">
+
+**Like every package maintained by [Vazco](https://vazco.eu/), Universe Admin is [MIT licensed](https://github.com/vazco/uniforms/blob/master/LICENSE).**
+
+
